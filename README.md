@@ -1,6 +1,6 @@
-# Distributed Key-Value Store (C++20)
+# Distributed Key-Value Store
 
-A sharded, replicated, linearizable key-value store written from scratch in C++20 with no third-party dependencies.
+A sharded, replicated, linearizable key-value store written from scratch with no third-party dependencies.
 Each shard is a Raft group; each replica persists its data in its own LSM-tree storage engine; keys are spread across
 shards with consistent hashing. The test suite injects crashes, network partitions and lossy networks, then verifies
 every recorded client history with a linearizability checker.
