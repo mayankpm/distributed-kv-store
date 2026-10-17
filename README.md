@@ -158,6 +158,8 @@ src/net       simulated network, sockets, TCP transport
 src/kv        consistent hashing, placement, state machine, replica, node, client
 src/check     linearizability checker
 apps          kvnode (server), kvcli (client), kvbench (benchmarks)
+examples      sample 3-node and 5-node cluster configs
+scripts       local cluster launchers (sh and PowerShell)
 tests         unit, fault-injection and integration tests
 ```
 
